@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #222;
+  margin-left: 60px;
+}
+
+.featured{
+    padding-left: 40px;
+}
+
+.featured-works {
+  padding: 40px 60px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.featured-works h2 {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.featured-card {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+}
+
+.featured-card img {
+  width: 250px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.work-info h3 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.data {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.data .year {
+  background-color: darkblue;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.data .category {
+  color: #888;
+  font-size: 14px;
+}
+
+.work-info p {
+  font-size: 15px;
+  color: #444;
+  line-height: 1.6;
+}

@@ -2,6 +2,8 @@ body {
   font-family: Arial, sans-serif;
   background: black;
   color: white;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -30,8 +32,8 @@ h1 {
   color: black;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  max-width: 480px;
   width: 100%;
+  max-width: 480px;
 }
 
 .card img {
@@ -72,4 +74,35 @@ h1 {
 .fill.red {
   background-color: #e74c3c;
   color: black;
+}
+
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  .card img {
+    height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  .grid {
+    flex-direction: column;
+    padding: 5px;
+  }
+
+  .card img {
+    height: 220px;
+  }
+
+  .caption p {
+    font-size: 13px;
+  }
 }
