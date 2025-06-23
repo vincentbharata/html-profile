@@ -1,13 +1,7 @@
 .contact {
-  padding: 40px;
-}
-
-.contact {
   margin: 60px auto;
-  background-color: white;
-  padding: 30px;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  max-width: 900px;
 }
 
 .contact h2 {
@@ -30,6 +24,7 @@
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 14px;
+  box-sizing: border-box;
 }
 
 .contact button {
@@ -47,4 +42,11 @@
 
 .contact button:hover {
   background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .contact {
+    margin: 20px;
+    padding: 20px;
+  }
 }
